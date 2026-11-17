@@ -1,0 +1,36 @@
+{
+  "demo": true,
+  "as_of": "2026-11-14",
+  "through": "2026-11-30",
+  "balance_cents": 324840,
+  "committed_cents": 94230,
+  "protected_cents": 60000,
+  "available_cents": 170610,
+  "accounts": [
+    {
+      "name": "Cuenta diaria",
+      "cents": 246840
+    },
+    {
+      "name": "Cuenta de ahorro",
+      "cents": 78000
+    }
+  ],
+  "payments": [
+    {
+      "name": "Alquiler",
+      "date": "2026-11-20",
+      "cents": 75000
+    },
+    {
+      "name": "Seguro anual",
+      "date": "2026-11-25",
+      "cents": 12990
+    },
+    {
+      "name": "Electricidad",
+      "date": "2026-11-28",
+      "cents": 6240
+    }
+  ]
+}

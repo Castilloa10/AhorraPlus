@@ -1,0 +1,26 @@
+{
+  "name": "ahorra-plus",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web",
+    "check": "tsc --noEmit",
+    "build": "expo export --platform web"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-web": "~0.21.0",
+    "@expo/metro-runtime": "~6.1.2",
+    "react-native-safe-area-context": "~5.6.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2",
+    "@types/react": "~19.1.0",
+    "@types/node": "^22.0.0"
+  }
+}

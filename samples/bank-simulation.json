@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "entry_reference": "synthetic-001",
+      "status": "BOOK",
+      "booking_date": "2026-11-12",
+      "transaction_amount": {"currency": "EUR", "amount": "30.00"},
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": ["Compra simulada"]
+    },
+    {
+      "entry_reference": "synthetic-002",
+      "status": "BOOK",
+      "booking_date": "2026-11-13",
+      "transaction_amount": {"currency": "EUR", "amount": "10.00"},
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": ["Abono simulado"]
+    },
+    {
+      "entry_reference": "synthetic-pending",
+      "status": "PDNG",
+      "transaction_amount": {"currency": "EUR", "amount": "15.00"},
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": ["Compra pendiente simulada"]
+    }
+  ],
+  "continuation_key": null
+}
